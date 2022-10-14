@@ -1,0 +1,51 @@
+# branchy branchy
+I prelude1.inc
+> branch one
+<<<
++ f.txt wug.txt
++ g.txt wug2.txt
++ h.txt wug3.txt
+> branch two
+<<<
++ f.txt wug.txt
++ g.txt wug2.txt
++ h.txt wug3.txt
+> branch three
+<<<
++ f.txt wug.txt
++ g.txt wug2.txt
++ h.txt wug3.txt
+> branch four
+<<<
++ f.txt wug.txt
++ g.txt wug2.txt
++ h.txt wug3.txt
+> add h.txt
+<<<
+> commit "Added h"
+<<<
+> checkout one
+<<<
+* h.txt
+> add f.txt
+<<<
+> commit "Added f"
+<<<
+E f.txt
+* h.txt
+> checkout two
+<<<
+* h.txt
+* f.txt
+> add g.txt
+<<<
+> commit "Added g"
+<<<
+E g.txt
+* f.txt
+* h.txt
+> checkout three
+<<<
+* f.txt
+* g.txt
+* h.txt

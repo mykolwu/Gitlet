@@ -1,0 +1,30 @@
+# status with adds and removes
+I setup1.inc
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+f.txt
+g.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> branch branchywanchy
+<<<
++ f.txt wug.txt
++ g.txt wug2.txt
+> rm f.txt
+<<<
+> commit "got rid of f"
+<<<
+> checkout branchywanchy
+<<<
++ f.txt wug.txt
++ g.txt wug2.txt
+
